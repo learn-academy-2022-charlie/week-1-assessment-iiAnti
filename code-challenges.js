@@ -133,16 +133,40 @@ const myNumbers2 = [8, -7, 42, 9, 13]
 
 
 
-
-
-
-
-
-
-
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below. Expected output: "2202 eilrahC"
 
+// _________________________________________________________________________
+
+// started off looking at the const
+	// then it took many tries (explain at the bottom of this code) but figured out the code and started with a new function
+// the function split the string with .split witch turns them into arrays
+	// then I reversed the order with .reverse() which is a mutator
+// finished it off with .join() which turns it back from an array
+	// now you console.log the outcome with the no function of rev
+
 const currentCohort = "Charlie 2022"
+
+		
+					
+
+					const rev = currentCohort.split('').reverse().join('');
+
+							console.log(rev)
+
+
+
+// I tried a couple of functions including the one right here.
+	// nothing worked for a while. I was thinking too simplicity
+//  used both the syllabus and google for help
+	// google helped with the coding. Had to go through about 3 articles.
+//  the syllabus helped with understanding  Arrays meant and why I used them there. It also helped me remember that they were called arrays.
+//         let revCur = currentCohort.reverse();
+					
+					// console.log(currentCohort);
+
+
+
+
 
 
 // --------------------4) Create a statement that will evaluate whether each number in an array is even or odd. Use the test variable provided below. Expected output: "odd" "even" "odd" "even" "odd" "even"
