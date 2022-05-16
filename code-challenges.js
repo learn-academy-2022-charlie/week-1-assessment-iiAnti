@@ -39,9 +39,10 @@ const fruit4 = "kiwi"
 					console.log(sweet(fruit3, fruit4))
 					console.log(sweet(fruit4, fruit4))
 					
+							
+
+
 							// console.log(ya, eh) this is my failed ex.
-
-
 
 
 		// I had trouble defining the else. I couldn't get it to show. I kept getting the error code in terminal.
@@ -160,21 +161,72 @@ const currentCohort = "Charlie 2022"
 //  used both the syllabus and google for help
 	// google helped with the coding. Had to go through about 3 articles.
 //  the syllabus helped with understanding  Arrays meant and why I used them there. It also helped me remember that they were called arrays.
+
+
 //         let revCur = currentCohort.reverse();
 					
 					// console.log(currentCohort);
 
 
-
+// ______________________________________________________________________
 
 
 
 // --------------------4) Create a statement that will evaluate whether each number in an array is even or odd. Use the test variable provided below. Expected output: "odd" "even" "odd" "even" "odd" "even"
 
+
+// first put in a loop function. this will allow for the code to run up to the number specified in the declaration.
+	// follow with the i (or whatever you please) this first part is tp tell it where to start.
+// the secodn part is to tell it where it stops
+	 // the third part is to tell it how it is going to get there
+// follow by a condition "if" to determine if soemthing is even or odd
+	// use the declaration followed by the choice of "let" you used ect. i 
+// use modulo (%) 2 and make it strictly (===) equal to 0 to see if it is odd or evenly divided. (if there is a remainder ever, it means it is odd.)
+	// console.log even and then else with an odd.
+
+
+
+
 const myArray = [13, 34, 5, 10, 27, 42]
+					
+
+					for(let i = 0; i <= myArray.length; i++){
+						 if(myArray[i] % 2 === 0){
+						console.log("even")
+					} else {
+						console.log("odd")
+					}
+					}
+				
+
+					
+
+
+// Oh my gosh. I had so much trouble with this one for some reason. I did it with ease in the partner assignments. but I forgot what the code for it was. I searched through the syllabus, google, and past assignments because I was so confused. I couldn't find anything for so long. Even on google. so I skipped the question and went on to work on the next one which came a little easier to me and boosted my confidence again. I came back to this question and finally found the help for this question on both google and the syllabus.
+
+// One of my biggest problems is remembering. But I do know one thing, I never give up.
+
+
+
+
+
+
+// ______________________________________________________________________
 
 
 // --------------------5) Create a function that takes in a set of any two numbers and subtracts the smaller number from the larger number using the sets of test variables provided below. Expected output: 42, 3
+
+
+
+// Start with a new set of declaration (had to search what the const was again)
+	 //name it as you wish. make two of them and in the first one "num1" add the larger numbers.
+ // add a second one "nu2" but this time with the less numbers.
+ 	// Now made a function with the two new declarations with a return.
+ // subtract nu1 from in the return 
+  // at the end console.log the new function with the new declarations in the ()
+
+
+
 
 // Set one:
 const number1 = 58
@@ -183,3 +235,29 @@ const number2 = 100
 // Set two:
 const number3 = 27
 const number4 = 24
+
+		const nu1 = (number2 , number3)
+		const nu2 = (number1, number4)
+					
+					const subt = (nu1 , nu2) => {
+						return nu1 - nu2
+					}
+
+				console.log(subt(number2, number1))
+				console.log(subt(number3, number4))
+
+
+
+
+
+// thankfully this one was quicker for me. I was a little confused on how I would form the code.
+ // I went to the syllabus in the Function section and found the area in the Multiple parameters section on how the code may be coded
+//  followed those steps and it led me to success.
+
+
+
+
+
+
+
+
