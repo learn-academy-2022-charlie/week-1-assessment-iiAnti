@@ -4,7 +4,9 @@
 Select the following as confirmation that the files in this repository are complete.
 - [ x ] Coding Challenges
 - [ x ] Coding Concepts
-- [ ] Interview Questions
+- [ x ] Interview Questions
 
 ### 📝 Feedback
 If you would like specific feedback on a particular problem please leave details here:
+
+	on q.5 of challenges I couldn't firgure out why I got an extra "odd".
